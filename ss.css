@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.logo {
+    text-align: center;
+    font-size: 500%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.css-test {
+    color:#f00;
+}
+
+p {
+    display: inline-block;
+}
+
+.name {
+    font-size:larger;
+    width: 3em;
+}
+
+.birthday {
+    font-size:medium;
+    margin-top:-5%;
+    margin:0% 15%;
+    /* border: 1px solid; */
+}
+
+.mako,
+.rio,
+.maya,
+.riku,
+.ayaka,
+.mayuka,
+.rima,
+.miihi,
+.nina {
+    text-align: center;
+    vertical-align: middle; /* 上下中央に配置 */
+    margin: 2% auto;
+    padding: auto 0%;
+    border: 1px solid;
+    border-radius: 35px; /* 半径が8pxの角丸 */
+    width:70%;
+    /* height:5%; */ /* heightとmarginは片方のみ使う */
+    font-size: 100%;
+}
+
+.years-old {
+    font-size:150%;
+    font-weight: bold;
+    height: auto;
+    margin: -5% 0%;
+}
+
+.mako{
+    background-color: #FF6A39;
+}
+.rio{
+    background-color: #71C5E8;
+}
+.maya{
+    background-color: #7F35B2;
+    color: #FFFFFF;
+}
+.riku{
+    background-color: #F9E267;
+}
+.ayaka{
+    background-color: #FFFFFF;
+}
+.mayuka{
+    background-color: #00CFB4;
+}
+.rima{
+    background-color: #BA0C2F;
+    color: #FFFFFF;
+}
+.miihi{
+    background-color: #ECB3CB;
+}
+.nina{
+    background-color: #003DA5;
+    color: #FFFFFF;
+}
