@@ -2,12 +2,12 @@
 
 body {
     font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
-    font-size: 5em;
+    font-size: 1rem;
 }
 
 .logo {
     text-align: center;
-    font-size: 10rem;
+    font-size: 3rem;
 }
 
 a {
@@ -24,13 +24,15 @@ p {
 
 .name {
     /* font-size:larger; */
-    width: 3em;
+    padding: 0.3rem;
+    width: auto;
 }
 
 .birthday {
-    font-size:4rem;
+    font-size:1rem;
     margin-top:-5%;
-    margin:0% 15%;
+    margin:0% 5%;
+    width: auto;
     /* border: 1px solid; */
 }
 
@@ -49,7 +51,7 @@ p {
     padding: auto 0%;
     border: 1px solid;
     border-radius: 35px; /* 半径が8pxの角丸 */
-    width:70%;
+    width:90%;
     /* height:5%; */ /* heightとmarginは片方のみ使う */
     font-size: 100%;
 }
